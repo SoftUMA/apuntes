@@ -1,2 +1,1 @@
-# apuntes
-Apuntes de las asignaturas del tercer curso de Ingeniería de Software.
+Apuntes de las asignaturas de Ingeniería de Software.
