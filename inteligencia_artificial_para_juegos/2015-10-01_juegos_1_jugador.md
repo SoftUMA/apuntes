@@ -10,15 +10,15 @@ Tres características:
 
 ## Sistemas de producción
 
-- Bases de datos (*estados*): __espacio de estados__. Determina la complejidad del algoritmo
+- __Bases de datos (*estados*)__: __espacio de estados__. Determina la complejidad del algoritmo
 	- Base de datos inicial (*estado inicial*)
 	- Base de datos objetivo (*estado objetivo*). No se define como una conceptualización, sino como un conjunto de reglas que lo definen
-- Reglas de producción: reglas lógicas que se aplican a estados y realizan la conversión de un estado en su sucesor. Están sujetas a condiciones. No todas son aplicables en un momento `t`. Determina la complejidad del algoritmo. Características:
+- __Reglas de producción__: reglas lógicas que se aplican a estados y realizan la conversión de un estado en su sucesor. Están sujetas a condiciones. Suelen tener un coste asociado. No todas son aplicables en un momento `t`. Determina la complejidad del algoritmo. Características:
 	1. Precondiciones
 	1. Antecedente
 	1. Consecuente
-- Conjunto de reglas aplicables
-- Estrategia de control: determina qué regla se va a aplicar en un momento `t`. Aquí reside la toma de decisiones ("inteligencia").
+- Conjunto de __reglas aplicables__
+- __Estrategia de control__: determina qué regla se va a aplicar en un momento `t`. Aquí reside la toma de decisiones ("inteligencia").
 	- Llevar un registro
 	- Determina la dificultad
 		- Tiempo
