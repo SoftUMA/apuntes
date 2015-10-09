@@ -109,10 +109,6 @@ Precondiciones para __todas__ las reglas:
 
 ## Ejercicio 3
 
-[Ver en la web...](http://)
-
-## Ejercicio 4
-
 Tenemos un padre, una madre, dos hijos, dos hijas, un policía y un ladrón.  
 Tienen que cruzar el río en una balsa con capacidad 2.  
 Solo saben manejar la balsa la madre, el padre y el policía.  
@@ -120,7 +116,12 @@ El ladrón no puede permanecer con ningún miembro de la familia sin el policía
 El padre no puede permanecer con ninguna hija sin que este la madre presente.  
 La madre no puede permanecer con ningún hijo sin que este presente el padre.
 
-## Ejercicio 5
+~~~
+Solución:
+
+~~~
+
+## Ejercicio 4
 
 Tenemos las 40 cartas de la baraja española, barajadas [1..7, J, Q, K]. Se ponen en fila.  
 Se pueden retirar dos cartas contíguas siempre y cuando sumen 12.  
