@@ -19,7 +19,12 @@
 7.      para cada n-i perteneciente a M
             si n-i no pertenece a ABIERTOS ni a CERRADOS
                 poner puntero n-i -> n
-... continuar
+                añadir n-i a ABIERTOS
+            si n-i pertenece a ABIERTOS o a CERRADOS
+                dirigir su puntero al mejor padre
+                si n-i pertenece a CERRADOS ... (y se modificó el puntero)
+8.      reordenar ABIERTOS arbitrariamente o según un heurístico
+9.      volver a CICLO
 ~~~
 
 ## Ejercicio 1
